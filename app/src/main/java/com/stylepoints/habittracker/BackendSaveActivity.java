@@ -20,6 +20,31 @@ public class BackendSaveActivity extends AppCompatActivity{
         setContentView(R.layout.activity_social_following);
     }
 
+    List getFollowers(String userid) {
+        //get somebody's followers
+        //finish follower class
+        
+        //return habit list for userid
+        //for each habit in habit list:
+            //for each event in habit
+                //add events to list
+    }
+    
+    void removeFollower(String followerID) {
+        //need to make follower class
+    }
+    
+    
+    List getFolloweeEvents(String userid) {
+        List toReturn = new ArrayList();
+        for //get habitlist?
+        
+        
+              //return habit list for userid
+        //for each habit in habit list:
+            //for each event in habit
+                //add events to list
+        
 
     List getEventsWithinRadius(Habit habit, Location location, int radiusKM) {
             List<HabitEvent> list = habit.getHabitEventList();
